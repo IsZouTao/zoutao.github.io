@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>邹涛·引导页</title>
+	<meta name="keywords" content="邹涛网络,邹涛,zoutao">
+	<meta name="description" content="邹涛个人简介,邹涛">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="css/Indexmain.css" />
+	<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+</head>
+
+<body onselectstart="return false" oncontextmenu=self.event.returnValue=false> 
+	
+	<!-- Wrapper -->
+	<div id="wrapper" style="padding:0rem 2rem">
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<img src="./img/logo.jpg" alt="头像">
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1>邹涛</h1>
+
+					<div id="chakhsu" style="text-align:center;color:green"></div>
+					<h3>天外有天有无常,
+						山外有山有他乡,
+					跌了撞了,心还是回老地方.</h3>
+					<h3>游离于城市的痛痒,
+						错过了心爱的姑娘,
+						宣告世界的那个理想,已不知去向.
+						为所欲为是轻狂,
+						防不胜防是悲伤,后来才把成熟当偏方.
+					</h3>
+
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="./main.html" target="_blank"><i class="fa fa-home"></i>主页</a></li>
+					<li><a href="./message.html" target="_blank"><i class="fa fa-qq"></i>留言</a></li>
+					<li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=rtTB29rPwZiYmJju39_AzcHD" target="_blank"><i class="fa fa-envelope-o fa-fw"></i>邮箱</a></li>
+					<li><a href="https://github.com/IsZouTao" target="_blank"><i class="fa fa-github"></i>github</a></li>
+					<li><a href="#" onclick="Secret();return false;">
+						<i class="fa fa-heart-o"></i>I O U</a></li>
+					<li><a href="https://zoutao.blog.csdn.net"target="_blank"><i class="fa fa-map-o"></i>博客</a></li>
+					<!-- 引自图标库fontawesome4x版本 -->
+					<!-- <li><a href="http://fontawesome.dashgame.com/"target="_blank"><i class="fa fa-map-o"></i>图标库</a></li> -->
+				</ul>
+			</nav>
+		</header>
+		<!-- 可调用酷狗API -->
+		<audio id="mom" src="mp3/xwzyyxdr.mp3" autoplay="autoplay" preload="auto" type="audio/mp3" loop="loop">当前浏览器不支持音乐播放。</audio>
+		<span style="font-size: 3em; color: Tomato;">
+			<i class="fa fa-pause" id="btn"></i></span>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<!--显示访客IP地址-->
+				<div class="mom1" >
+					<h5>你的地址:
+						<script src="//pv.sohu.com/cityjson?ie=utf-8"></script>
+						<script type="text/javascript">
+							document.write(returnCitySN["cip"]+','+returnCitySN["cname"])
+						</script>
+					</div>
+					<li style="text-align: center;">
+						<span id="momk" ></span>
+						<span id="momk" style="color: #ff0000;"></span>
+						<script type="text/javascript">
+							function NewDate(str) {
+								str = str.split('-');
+								var date = new Date();
+								date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+								date.setUTCHours(0, 0, 0, 0);
+								return date;
+							}
+							function momxc() {
+				var birthDay =NewDate("2019-12-9");  //初始时间
+				var today=new Date();
+				var timeold=today.getTime()-birthDay.getTime(); //计算毫秒级时间距离
+				var sectimeold=timeold/1000
+				var secondsold=Math.floor(sectimeold);
+				var msPerDay=24*60*60*1000; var e_daysold=timeold/msPerDay;
+				var daysold=Math.floor(e_daysold);
+				var e_hrsold=(daysold-e_daysold)*-24;
+				var hrsold=Math.floor(e_hrsold);
+				var e_minsold=(hrsold-e_hrsold)*-60;
+				var minsold=Math.floor((hrsold-e_hrsold)*-60); var seconds=Math.floor((minsold-e_minsold)*-60).toString();
+				document.getElementById("momk").innerHTML = "本站已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+				setTimeout(momxc, 1000);
+			}momxc();
+		</script> 
+		<style>
+		li {list-style-type:none;}
+		#momk{animation:change 10s infinite;font-weight:800; }@keyframes change{0%{color:#5cb85c;}25%{color:#556bd8;}50%{color:#e40707;}75%{color:#66e616;}100% {color:#67bd31;}}
+		</style>
+		</li>
+
+		<p class="copyright">Copyright&copy;2017-2019 <a href="https://zoutao.blog.csdn.net" target="_blank">zoutao.info</a> All rights reserved - 版权所有</p>
+	</footer>
+</div>
+
+
+<!-- BG调用了随机背景API -->
+<div id="bg"></div>
+
+<!--树叶飘落特效-->
+<script src="js/jquery.min.js" ></script>
+<script src="js/skel.min.js" ></script>
+<script src="js/util.js" ></script>
+<script src="js/main.js" ></script>
+<script src="js/su.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+		$('body').wpSuperSnow({/*https://cdn.mom1.cn/1/008.png改为本地*/
+			flakes: ['./img/008.png', './img/001.png', './img/004.png', './img/002.png', './img/005.png', './img/003.png', './img/11.png','./img/006.png', ],
+			totalFlakes: '90',
+			zIndex: '999999',
+			maxSize: '30',
+			maxDuration: '20',
+			useFlakeTrans: false
+		});
+	});
+
+/* 背景音乐控制*/
+var btn=document.getElementById('btn');
+var audio=document.getElementById('mom');
+var tag = true;  // 默认播放
+btn.onclick = function(){
+	if(tag){
+		//alert('关闭');
+		btn.className="fa fa-play"
+		audio.pause();
+		tag = false;
+	}else{
+		//alert('播放');
+		btn.className="fa fa-pause"
+		audio.play();
+		tag = true;
+	}
+}
+
+
+function Secret(){
+	alert('这是秘密还不能告诉你~~~')
+}
+
+</script>
+
+</body>
+</html>
