@@ -12,5 +12,12 @@
 ![图示](https://github.com/IsZouTao/zoutao.github.io/blob/master/showpic.png)
 
 
+<br>
+2020.3.20
+1.改掉了字体库CDN，改为本地加载，优化了加载速度。
+2.去掉了音乐播放功能
+3.本地改为浮动物的API调用，优化了加载速度。
+4.解决了Bing背景图的API调用出错。
+5.souhu的ip查询速度有待优化。。。
 
-
+<br>
