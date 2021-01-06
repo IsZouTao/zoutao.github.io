@@ -1,15 +1,18 @@
 
-<h2>搭建了一个邹涛个人简介网站，访问地址:https://www.zoutao.xyz </h2>
+<h2>搭建了一个邹涛个人简介网站>>>> https://zoutao.xyz  </h2>
 
 访问地址(任意均可)：
+
 <br>
-[zoutao.xyz](zoutao.xyz)
+[zoutao.xyz](https://zoutao.xyz)
 <br>
 [www.zoutao.xyz](https://www.zoutao.xyz/)
 <br>
 [iszoutao.gitee.io/zou](https://iszoutao.gitee.io/zou/)
 
+
 <br>
+
 后期会做一个后台管理系统来完善该项，欢迎收藏。
 <br>
 个人博客：https://blog.csdn.net/ITBigGod   
