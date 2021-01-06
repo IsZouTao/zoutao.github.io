@@ -1,5 +1,13 @@
 
 <h2>搭建了一个邹涛个人简介网站，访问地址:https://www.zoutao.xyz </h2>
+
+访问地址(任意均可)：
+zoutao.xyz
+
+www.zoutao.xyz
+
+iszoutao.gitee.io/zou
+
 <br>
 后期会做一个后台管理系统来完善该项，欢迎收藏。
 <br>
