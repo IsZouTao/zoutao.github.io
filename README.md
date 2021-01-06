@@ -17,6 +17,12 @@
 <p>
 更新2021-01-06
 将原域名zoutao.info改为zoutao.xyz，为啥？便宜~
+
+记录类型选择CNAME，主机记录可以填@或www。
+域名记录值，填写github page上的域名即：userename.github.io。
+如果你同时又开启Coding、Gitee的pages服务，按上述步骤再添加一条记录进去。
+例：添加的是Gitee，记录值为：userename.gitee.io；
+
 </p>
 
 <p>
@@ -33,3 +39,5 @@
 5.souhu的ip查询速度有待优化。
     </p>
 <br>
+
+
